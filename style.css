@@ -1,11 +1,11 @@
 body {
-  font: 18px/33px 'Google Sans', monospace;
+  font: 16px/33px 'Google Sans', monospace;
   background: #white;
   color: black;
 }
 
 .letter {
-  max-width: 680px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
