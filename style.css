@@ -1,0 +1,68 @@
+body {
+  font: 20px/35px 'Google Sans', monospace;
+  background: #white;
+  color: black;
+}
+
+.letter {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 15px auto 0;
+  margin-top: 35px;
+  opacity: 1;
+  animation: logo 6s 1 ease;
+  transform: scale(0.7);
+  filter: invert(0%);
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.7);
+  }
+}
+.typed-cursor {
+  opacity: 1;
+  animation: typedjsBlink 0.8s infinite;
+  -webkit-animation: typedjsBlink 0.8s infinite;
+  animation: typedjsBlink 0.8s infinite;
+}
+
+@keyframes typedjsBlink {
+  40% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes typedjsBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.typed-fade-out {
+  opacity: 0;
+  transition: opacity .35s;
+  -webkit-animation: 0;
+  animation: 0;
+}
