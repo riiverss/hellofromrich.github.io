@@ -39,9 +39,9 @@ img {
 }
 .typed-cursor {
   opacity: 1;
-  animation: typedjsBlink 0.8s infinite;
-  -webkit-animation: typedjsBlink 0.8s infinite;
-  animation: typedjsBlink 0.8s infinite;
+  animation: typedjsBlink 0.9s infinite;
+  -webkit-animation: typedjsBlink 0.9s infinite;
+  animation: typedjsBlink 0.9s infinite;
 }
 
 @keyframes typedjsBlink {
@@ -62,7 +62,7 @@ img {
 }
 .typed-fade-out {
   opacity: 0;
-  transition: opacity .35s;
+  transition: opacity .39s;
   -webkit-animation: 0;
   animation: 0;
 }
