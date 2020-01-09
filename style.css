@@ -45,7 +45,7 @@ img {
 }
 
 @keyframes typedjsBlink {
-  40% {
+  50% {
     opacity: 0.0;
   }
 }
