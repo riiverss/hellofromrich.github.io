@@ -15,7 +15,7 @@ const sentences = [
 
 [
 "",
-"I'm curious if you'd be open to a conversation about what life could look like for you here at Google in Sydney?",
+"I'm curious if you'd be open to a conversation about what life could look like for you as an engineer here at Google in Sydney.",
 "",
 "How's my timing?",
 "",
