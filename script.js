@@ -29,3 +29,4 @@ const typed = new Typed(el, {
   typeSpeed: 45,
   smartBackspace: true,
   startDelay: 3500 });
+  backDelay: 1400 });
