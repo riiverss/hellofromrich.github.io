@@ -28,4 +28,5 @@ const typed = new Typed(el, {
   strings: sentences.map(sentence => sentence.join("<br />")),
   typeSpeed: 45,
   smartBackspace: true,
-  startDelay: 3500 });
+  startDelay:3500,
+backDelay 1400});
