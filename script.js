@@ -6,7 +6,7 @@ const sentences = [
 
 [
 "",
-"Your engineering experience looks really interesting for some of the work we are doing here on the Chrome team."],
+"Your Engineering experience looks really interesting for some of the work we are doing here on the Chrome team."],
 [
 "",
 "I wondered if you had given it any thought recently what your next career move may look like? 🤔",
