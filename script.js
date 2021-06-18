@@ -26,6 +26,6 @@ const sentences = [
 const el = document.querySelector(".container");
 const typed = new Typed(el, {
   strings: sentences.map(sentence => sentence.join("<br />")),
-  typeSpeed: 45,
+  typeSpeed: 55,
   smartBackspace: true,
   startDelay: 3500 });
