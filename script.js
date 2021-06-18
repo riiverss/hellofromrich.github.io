@@ -2,11 +2,11 @@ const sentences = [
 [
 "Hello 🙋🏻‍♂️",
 "",
-"I'm Rich, a Software Emngineering here at Google in Sydney and I am on the lookout to speak with engineering folks who don't know I exist to explore new opportunities with them they did not know existed."],
+"I'm Rich, a Software Engineering Recruiter here at Google and I am on the lookout to speak with Engineering folks for our ChromeOS team in Sydney."],
 
 [
 "",
-"Your engineering experience looks really interesting for some of the work we are doing here on the ChromeOS team in Sydney."],
+"Your engineering experience looks really interesting for some of the work we are doing here on the ChromeOS team."],
 [
 "",
 "I wondered if you had given it any thought recently what your next career move may look like? 🤔",
