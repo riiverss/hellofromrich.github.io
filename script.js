@@ -2,11 +2,11 @@ const sentences = [
 [
 "Hello 🙋🏻‍♂️",
 "",
-"I'm Rich, a Software Engineering Recruiter here at Google and I am on the lookout to speak with Engineering folks for our ChromeOS team in Sydney."],
+"I'm Rich, a Software Engineering Recruiter here at Google and I am on the lookout to speak with Engineering folks for our Chrome team in Sydney."],
 
 [
 "",
-"Your engineering experience looks really interesting for some of the work we are doing here on the ChromeOS team."],
+"Your engineering experience looks really interesting for some of the work we are doing here on the Chrome team."],
 [
 "",
 "I wondered if you had given it any thought recently what your next career move may look like? 🤔",
@@ -26,6 +26,6 @@ const sentences = [
 const el = document.querySelector(".container");
 const typed = new Typed(el, {
   strings: sentences.map(sentence => sentence.join("<br />")),
-  typeSpeed: 55,
+  typeSpeed: 80,
   smartBackspace: true,
   startDelay: 3500 });
