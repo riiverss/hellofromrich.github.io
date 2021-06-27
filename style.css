@@ -1,7 +1,14 @@
 body {
   font: 17px/33px 'Google Sans', monospace;
-  background: #white;
+  background: white;
   color: black;
+}
+
+.wrapper {
+  border: solid 1px black;
+  border-radius: 4px;
+  min-height: 600px;
+  padding: 10px;
 }
 
 .letter {
