@@ -6,7 +6,7 @@ const sentences = [
 
 [
 "",
-"We are looking for Software Engineers for our Chrome, Photos & Maps teams."],
+"We are looking for Software Engineers for our Chrome Photos & Maps teams."],
   
 [
 "",
