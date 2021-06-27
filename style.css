@@ -62,7 +62,7 @@ img {
 }
 .typed-fade-out {
   opacity: 0;
-  transition: opacity .52s;
+  transition: opacity .57s;
   -webkit-animation: 0;
   animation: 0;
 }
