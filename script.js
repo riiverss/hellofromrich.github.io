@@ -1,5 +1,6 @@
 const sentences = [
 [
+"",
 "Hello 🙋🏻‍♂️",
 "",
 "I'm Rich, a Software Engineering Recruiter here at Google and I am on the lookout to speak with Engineering folks for the teams right here in Sydney.",
