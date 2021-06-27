@@ -6,7 +6,7 @@ const sentences = [
 
 [
 "",
-"Your Engineering experience looks really interesting for some of the work we are doing across our Chrome, Photos & Maps teams."],
+"We are looking for Software Engineers for our Chrome, Photos & Maps teams."],
   
 [
 "",
@@ -16,7 +16,7 @@ const sentences = [
 
 [
 "",
-"I'm curious if you'd be open to a chat about what life could look like for you as a SWE here at Google?",
+"I'm curious if you'd be open to a chat about what life could look like for you here at Google?",
 "",
 "How's my timing?",
 "",
