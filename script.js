@@ -6,10 +6,6 @@ const sentences = [
 
 [
 "",
-"We are looking for Software Engineers for our Chrome Photos & Maps teams."],
-  
-[
-"",
 "I wondered if you had given it any thought recently what your next career move may look like? 🤔",
 "",
 "What sort of problems do you want to be solving, things you want to be building etc? 🛠️"],
