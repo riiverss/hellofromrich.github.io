@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-  border: solid 1px black;
+  border: solid 2px black;
   border-radius: 4px;
   min-height: 720px;
   padding: 10px;
