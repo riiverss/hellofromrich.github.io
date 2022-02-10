@@ -6,7 +6,8 @@ const sentences = [
 "My name is Rich, I'm a Software Engineering Recruiter here at Google in Sydney",
 "",
 "I am currently researching for Software Engineers who would be interested in working on our Chrome, Photos or Maps Engineering teams",
-[
+
+[ 
 "",
 "I wondered if you had given it any thought recently what your next career move may look like?",
 "",
