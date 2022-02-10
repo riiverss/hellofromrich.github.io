@@ -9,6 +9,10 @@ const sentences = [
   ],
   [ 
   "",
+  "You will play a key role in how and what we build for our millions of users and work on systems at scale that very few other companies see."
+  ],
+  [ 
+  "",
   "I wondered if you had given it any thought recently what your next career move may look like?",
   "",
   "What sort of problems do you want to be solving, things you want to be building etc?"
