@@ -1,4 +1,4 @@
-```
+
 const sentences = [
   [
     "",
@@ -23,9 +23,6 @@ const sentences = [
     "👨🏻‍💻 Rich @Google.</a>"
   ]
 ];
-
-```
-
 
 
 const el = document.querySelector(".container");
