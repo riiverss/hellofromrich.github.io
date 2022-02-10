@@ -9,7 +9,7 @@ const sentences = [
   ],
   [ 
   "",
-  "As a Software Engineer here at Google you will play a key role in how and what we build for our millions of users and work on systems at scale that very few other companies see."
+  "As a Software Engineer here at Google, you will play a key role in how and what we build for our millions of users and work on systems at scale that very few other companies see."
   ],
   [ 
   "",
