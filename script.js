@@ -2,7 +2,7 @@
 const sentences = [
   [
     "",
-    "Hello 🙋🏻‍♂️",
+    "G'day 🙋🏻‍♂️",
     "",
     "My name is Rich, I'm a Software Engineering Recruiter here at Google in Sydney.",
     "",
