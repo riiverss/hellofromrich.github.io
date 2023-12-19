@@ -5,11 +5,11 @@ const sentences = [
   "",
   "My name is Rich, I'm a Software Engineering Recruiter here at Google in Sydney.",
   "",
-  "I am currently researching for Software Engineers who would be interested in working on our Chrome, Photos or Maps Engineering teams."
+  "I am currently researching Senior Software Engineering Leaders who would be interested in working on either of our Search, Chrome, Photos or Maps Engineering teams in Sydney or Singapore."
   ],
   [ 
   "",
-  "As a Software Engineer here at Google, you will play a key role in how and what we build for our millions of users and work on systems at scale that very few other companies see."
+  "You will play a lead role in how and what we build for our millions of users and work on systems at scale that very few other companies see."
   ],
   [ 
   "",
@@ -19,7 +19,7 @@ const sentences = [
   ],
   [
   "",
-  "I'm curious if you'd be open to a chat about what life could look like for you here at Google?",
+  "Could you be open to a chat about what life could look like for you here at Google?",
   "",
   "How's my timing?",
   "",
