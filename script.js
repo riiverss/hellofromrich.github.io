@@ -23,7 +23,8 @@ const sentences = [
   "",
   "How's my timing?",
   "",
-  "👨🏻‍💻 Rich @Google.</a>"
+  "👨🏻‍💻 Rich", 
+  "ivers@google.com</a>"
   ]
 ];
 
