@@ -37,8 +37,15 @@ const typed = new Typed(el, {
   startDelay: 3500
   showCursor: true,
   cursorChar: '|',
-  onComplete: function(self) { 
-    self.cursor.remove(); // Remove the cursor once typing is complete
+  onComplete: function() {
+    const button = document.createElement("button");
+    button.id = 'contactButton';
+    button.className = 'contact-button';
+    button.textContent = "I'm Interested";
+    button.addEventListener('click', function() {
+      window.location.href = 'mailto:ivers@google.com';
+    });
+    document.querySelector('.letter').appendChild(button);
   }
 });
 
