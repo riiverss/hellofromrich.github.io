@@ -24,6 +24,8 @@ const sentences = [
     "How's my timing?",
     "",
     "👨🏻‍💻 Rich",
+    "",
+    "",
   ]
 ];
 
