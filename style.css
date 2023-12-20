@@ -1,7 +1,7 @@
 body {
   font: 17px/33px 'Google Sans', Arial, sans-serif;
-  background: #FFFFFF; /* Google's background color */
-  color: #202124; /* Google's primary text color */
+  background: #FFFFFF;
+  color: #202124;
 }
 
 @media (max-width: 768px) {
@@ -15,25 +15,17 @@ body {
 }
 
 .wrapper {
-  border: solid 1px #DADCE0; /* Google's border color */
+  border: solid 1px #DADCE0;
   border-radius: 8px;
   min-height: 720px;
   padding: 20px;
-  box-shadow: 0 1px 6px rgb(32 33 36 / 28%); /* Subtle shadow for depth */
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
 .letter {
   max-width: 650px;
   margin: 0 auto;
   transition: all 0.3s ease;
-  display: flex; /* Flex container */
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
-  justify-content: flex-start; /* Align content to the start vertically */
-}
-
-.letter:hover {
-  transform: scale(1.05);
 }
 
 img {
@@ -65,6 +57,14 @@ img {
   transition: opacity .57s;
 }
 
+/* Centering the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
 /* Styles for the 'Yes, I'm Interested' button */
 #interestedButton {
   background-color: #4285F4; /* Google Blue */
@@ -75,8 +75,6 @@ img {
   font-family: 'Google Sans', Arial, sans-serif;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
-  text-align: center;
 }
 
 #interestedButton:hover {
