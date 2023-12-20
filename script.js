@@ -24,14 +24,23 @@ const sentences = [
   "How's my timing?",
   "",
   "👨🏻‍💻 Rich", 
-  "📧 ivers@google.com</a>"
+  "<button id='contactButton' class='contact-button'>I'm Interested</button>"
   ]
 ];
-
 
 const el = document.querySelector(".container");
 const typed = new Typed(el, {
   strings: sentences.map(sentence => sentence.join("<br />")),
   typeSpeed: 40,
   smartBackspace: true,
-  startDelay: 3500 });
+  startDelay: 3500
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const contactButton = document.getElementById('contactButton');
+  if (contactButton) {
+    contactButton.addEventListener('click', function() {
+      window.location.href = 'mailto:ivers@google.com';
+    });
+  }
+});
