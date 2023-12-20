@@ -24,7 +24,8 @@ const sentences = [
   "How's my timing?",
   "",
   "👨🏻‍💻 Rich", 
-  "<button id='contactButton' class='contact-button'>I'm Interested</button>"
+  "",
+  "<button id='contactButton' class='contact-button'>Yes I'm Interested</button>"
   ]
 ];
 
