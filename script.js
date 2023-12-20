@@ -27,20 +27,26 @@ const sentences = [
   ]
 ];
 
-// Function to initialize the typing effect
 function initializeTypingEffect() {
   const el = document.querySelector(".container");
+  const interestedButton = document.getElementById("interestedButton");
 
-  // Detect if the user is on a mobile device
   const isMobile = window.innerWidth <= 768;
 
-  // Typed.js initialization with responsive settings
   new Typed(el, {
     strings: sentences.map(sentence => sentence.join("<br />")),
-    typeSpeed: 65,
-    startDelay: 3500,
+    typeSpeed: isMobile ? 20 : 30,
+    backSpeed: 50,
+    smartBackspace: true,
+    loop: false,
+    onComplete: function() {
+      interestedButton.style.display = 'block'; // Show the button after typing is complete
+    }
   });
+
+  interestedButton.onclick = function() {
+    window.open('mailto:ivers@google.com?subject=Interest in Google Position', '_blank');
+  };
 }
 
-// Start the typing effect when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', initializeTypingEffect);
