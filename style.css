@@ -60,3 +60,22 @@ img {
   opacity: 0;
   transition: opacity .57s;
 }
+
+/* Styles for the 'Yes, I'm Interested' button */
+#interestedButton {
+  background-color: #4285F4; /* Google Blue */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Google Sans', Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#interestedButton:hover {
+  background-color: #357ae8; /* Darker shade for hover effect */
+}
