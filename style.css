@@ -1,75 +1,36 @@
-body {
-  font: 17px/33px 'Google Sans', monospace;
-  background: white;
-  color: black;
+/* Responsive design adjustments */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px; /* Smaller font size for smaller screens */
+  }
 }
 
-.wrapper {
-  border: solid 2px #F2F4F4;
-  border-radius: 4px;
-  min-height: 720px;
-  padding: 10px;
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 80%; /* Slightly larger width for medium screens */
+    padding: 0 20px;
+    font-size: 16px; /* Medium font size for medium screens */
+  }
 }
 
-.letter {
-  max-width: 650px;
-  margin: 0 auto;
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 60%; /* Fixed width for larger screens */
+    margin: 0 auto; /* Center align the container */
+    font-size: 18px; /* Larger font size for larger screens */
+  }
 }
 
+.container {
+  /* Common styles for the container */
+  line-height: 1.6; /* Improved line height for readability */
+  color: #333; /* Font color for better contrast */
+}
+
+/* Ensure images (if any) are responsive */
 img {
-  display: block;
-  margin: 15px auto 0;
-  margin-top: 35px;
-  opacity: 1;
-  animation: logo 6s 1 ease;
-  transform: scale(0.7);
-  filter: invert(0%);
-}
-
-@keyframes logo {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  20% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(0.7);
-  }
-}
-.typed-cursor {
-  opacity: 1;
-  animation: typedjsBlink 0.9s infinite;
-  -webkit-animation: typedjsBlink 0.9s infinite;
-  animation: typedjsBlink 0.9s infinite;
-}
-
-@keyframes typedjsBlink {
-  50% {
-    opacity: 0.0;
-  }
-}
-@-webkit-keyframes typedjsBlink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.typed-fade-out {
-  opacity: 0;
-  transition: opacity .57s;
-  -webkit-animation: 0;
-  animation: 0;
+  max-width: 100%;
+  height: auto;
 }
