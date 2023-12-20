@@ -37,9 +37,8 @@ function initializeTypingEffect() {
   // Typed.js initialization with responsive settings
   new Typed(el, {
     strings: sentences.map(sentence => sentence.join("<br />")),
-    typeSpeed: isMobile ? 60 : 65,
-    startDelay: isMobile ? 2000 : 3500,
-    backSpeed: 60,
+    typeSpeed: 65,
+    startDelay: 3500,
     loop: false
   });
 }
