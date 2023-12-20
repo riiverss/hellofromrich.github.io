@@ -57,6 +57,7 @@ img {
   transition: opacity .57s;
 }
 
+/* Centering the button */
 .button-container {
   display: flex;
   justify-content: center;
@@ -64,6 +65,7 @@ img {
   margin-top: 20px;
 }
 
+/* Styles for the 'Yes, I'm Interested' button */
 #interestedButton {
   background-color: #4285F4; /* Google Blue */
   color: white;
@@ -77,18 +79,4 @@ img {
 
 #interestedButton:hover {
   background-color: #357ae8; /* Darker shade for hover effect */
-}
-
-.inline-profile-pic {
-  width: 40px; /* Adjust size as needed */
-  height: 40px;
-  border-radius: 50%; /* Circular shape */
-  object-fit: cover;
-  vertical-align: middle; /* Aligns with the middle of the text */
-}
-
-/* New class for making text invisible quickly */
-.invisible {
-  opacity: 0;
-  transition: opacity 0.1s ease-out;
 }
