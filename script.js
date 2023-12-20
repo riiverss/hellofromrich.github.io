@@ -40,7 +40,7 @@ function initializeTypingEffect() {
     backSpeed: 50,
     smartBackspace: true,
     loop: false,
-    startDelay: 1500,
+    startDelay: 3000,
     onComplete: function() {
       interestedButton.style.display = 'block'; // Show the button after typing is complete
     }
