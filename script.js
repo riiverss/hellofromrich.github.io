@@ -32,9 +32,14 @@ const sentences = [
 const el = document.querySelector(".container");
 const typed = new Typed(el, {
   strings: sentences.map(sentence => sentence.join("<br />")),
-  typeSpeed: 40,
+  typeSpeed: 35,
   smartBackspace: true,
   startDelay: 3500
+  showCursor: true,
+  cursorChar: '|',
+  onComplete: function(self) { 
+    self.cursor.remove(); // Remove the cursor once typing is complete
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
