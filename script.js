@@ -39,7 +39,6 @@ function initializeTypingEffect() {
     strings: sentences.map(sentence => sentence.join("<br />")),
     typeSpeed: 65,
     startDelay: 3500,
-    loop: false
   });
 }
 
