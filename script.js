@@ -17,7 +17,15 @@
         max-width: 90%;  /* Adjust maximum width for mobile */
         font-size: 14px; /* Adjust font size for mobile */
         padding: 10px;   /* Adjust padding for mobile */
+        border: 2px solid #ccc;
+        border-radius: 10px;
       }
+    }
+
+    /* Default border styles for larger screens */
+    .container {
+      border: 2px solid #ccc;
+      border-radius: 10px;
     }
   </style>
 </head>
