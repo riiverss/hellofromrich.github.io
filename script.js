@@ -39,8 +39,7 @@ function initializeTypingEffect() {
     strings: sentences.map(sentence => sentence.join("<br />")),
     typeSpeed: isMobile ? 60 : 65,
     startDelay: isMobile ? 2000 : 3500,
-    backSpeed: 50,
-    smartBackspace: true,
+    backSpeed: 60,
     loop: false
   });
 }
