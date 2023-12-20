@@ -35,18 +35,6 @@ const typed = new Typed(el, {
   typeSpeed: 35,
   smartBackspace: true,
   startDelay: 3500
-  showCursor: true,
-  cursorChar: '|',
-  onComplete: function() {
-    const button = document.createElement("button");
-    button.id = 'contactButton';
-    button.className = 'contact-button';
-    button.textContent = "I'm Interested";
-    button.addEventListener('click', function() {
-      window.location.href = 'mailto:ivers@google.com';
-    });
-    document.querySelector('.letter').appendChild(button);
-  }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
