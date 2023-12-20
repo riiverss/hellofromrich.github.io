@@ -37,7 +37,7 @@ function initializeTypingEffect() {
   new Typed(el, {
     strings: sentences.map(sentence => sentence.join("<br />")),
     typeSpeed: isMobile ? 40 : 50,
-    backSpeed: 90,
+    backSpeed: 200,
     smartBackspace: true,
     loop: false,
     startDelay: 3000,
