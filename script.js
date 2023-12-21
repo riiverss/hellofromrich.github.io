@@ -31,6 +31,7 @@ const sentences = [
 function initializeTypingEffect() {
   const el = document.querySelector(".container");
   const interestedButton = document.getElementById("interestedButton");
+  const profilePicture = document.getElementById("profilePicture"); // Reference to the profile picture
 
   const isMobile = window.innerWidth <= 768;
 
@@ -41,6 +42,7 @@ function initializeTypingEffect() {
     loop: false,
     startDelay: 3000,
     onComplete: function() {
+      profilePicture.style.display = 'block'; // Show the profile picture after typing is complete
       interestedButton.style.display = 'block'; // Show the button after typing is complete
     }
   });
