@@ -4,22 +4,6 @@ body {
   color: #202124;
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
-
-  .wrapper {
-    padding: 5px;
-  }
-
-  /* Mobile-specific styles for profile picture */
-  #profilePicture {
-    width: 100px;
-    height: 100px;
-  }
-}
-
 .wrapper {
   border: solid 1px #DADCE0;
   border-radius: 8px;
@@ -40,16 +24,6 @@ img {
   opacity: 1;
   animation: logo 6s 1 ease;
   transform: scale(0.8);
-}
-
-/* Additional styles for the profile picture */
-#profilePicture {
-  display: block;
-  margin: 20px auto; /* Center the image */
-  width: 170px; /* Default size for desktop */
-  height: 170px;
-  border-radius: 50%; /* Circular shape */
-  object-fit: cover;
 }
 
 @keyframes logo {
@@ -93,4 +67,22 @@ img {
 
 #interestedButton:hover {
   background-color: #357ae8; /* Darker shade for hover effect */
+}
+
+/* Styles for the profile picture */
+#profilePicture {
+  display: block;
+  margin: 20px auto; /* Centering the image */
+  width: 100px; /* Default width for mobile */
+  height: 100px; /* Default height for mobile */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Adjusting the size for desktop devices */
+@media (min-width: 769px) {
+  #profilePicture {
+    width: 170px; /* Adjusted width for desktop */
+    height: 170px; /* Adjusted height for desktop */
+  }
 }
